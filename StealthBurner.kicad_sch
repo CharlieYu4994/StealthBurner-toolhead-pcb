@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "StealthBurner Toolhead PCB")
+    (date "2022-05-24")
+    (rev "Bata0")
+    (company "LassiCat Organization")
+    (comment 1 "Auther: CharlieYu")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -1158,7 +1166,7 @@
     (uuid 9a063b19-e5f3-48b5-bbc2-933e767ffdb2)
     (property "Reference" "D1" (id 0) (at 133.35 66.04 0))
     (property "Value" "BAT85" (id 1) (at 134.62 67.31 0))
-    (property "Footprint" "" (id 2) (at 129.54 62.23 0)
+    (property "Footprint" "Diode_THT:D_DO-34_SOD68_P2.54mm_Vertical_AnodeUp" (id 2) (at 129.54 62.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT85.pdf" (id 3) (at 129.54 66.675 0)
