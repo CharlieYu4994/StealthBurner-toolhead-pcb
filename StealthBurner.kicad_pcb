@@ -8,7 +8,7 @@
   (title_block
     (title "StealthBurner Toolhead PCB")
     (date "2022-05-24")
-    (rev "Bata0")
+    (rev "Bata1")
     (company "LassiCat Organization")
     (comment 1 "Auther: CharlieYu")
   )
@@ -192,7 +192,7 @@
     (property "Sheetname" "")
     (path "/71fd0e09-dda1-4d08-b593-e2600aa8eca5")
     (attr smd)
-    (fp_text reference "TH1" (at 0 1.75874) (layer "F.SilkS")
+    (fp_text reference "TH1" (at -3.082812 0.004398) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2c109084-7f57-462c-8c13-dd751d3a6387)
     )
@@ -596,7 +596,7 @@
     (property "Sheetname" "")
     (path "/9a063b19-e5f3-48b5-bbc2-933e767ffdb2")
     (attr through_hole)
-    (fp_text reference "D1" (at 0.41 1.8 90) (layer "F.SilkS")
+    (fp_text reference "D1" (at -2.2 0) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 3c4afb46-b9fd-4fea-89d5-49b864322501)
     )
@@ -604,15 +604,15 @@
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 00c9e39a-c49c-49e2-b329-2691e50a4f19)
     )
-    (fp_text user "A" (at 4.34 0 90) (layer "F.SilkS")
+    (fp_text user "A" (at 4.34 0 90) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 42ec0790-2635-4183-96de-37585753773e)
     )
-    (fp_text user "A" (at 4.34 0 90) (layer "F.Fab")
+    (fp_text user "A" (at 4.34 0 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 0cf27155-764a-4194-979d-e4cad0eea6a5)
     )
-    (fp_text user "${REFERENCE}" (at 1.27 -2.326371 90) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 1.27 -2.326371 90) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e6f5a17e-c092-43a9-9f4a-972a3716889e)
     )
@@ -714,21 +714,22 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "M2" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "M2" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 16de6ec8-f795-4b3f-bc27-84dfaf92f8f1)
+      (tstamp 2e86e610-08e4-4dbd-a100-7a598b74c23c)
     )
-    (fp_text value "M3_hole" (at 0 4.2) (layer "F.Fab")
+    (fp_text value "M3_hole" (at 0 4.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 898d3315-0397-48a4-b9d3-81ee66a4efbc)
+      (tstamp c81abfdc-d5ef-4e7b-a3f2-eca27ee3c55d)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 7e923be9-bb6c-4d9e-8cfd-0b081e314b3f)
+      (tstamp 7f30fd90-faaa-4bc7-afe9-f9dbc070e3a0)
     )
-    (fp_circle (center 0 0) (end 2.54 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 0be2df90-51fe-400c-8758-7ed857fe2105))
-    (fp_circle (center 0 0) (end 2.54 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp cf1ce85c-aeff-49cc-918d-85cc23f88b75))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 962ec430-e72a-4949-82c1-9066b51e6ba0))
+    (fp_circle (center 0 0) (end 2.05 0) (layer "F.SilkS") (width 0.75) (fill none) (tstamp bc08ae01-435c-4687-9a94-09e0f2051ed9))
+    (fp_circle (center 0 0) (end 1.6 0) (layer "Cmts.User") (width 0.1) (fill none) (tstamp 1aefa12b-3e4a-4d00-b81a-93c1a3f5154e))
+    (fp_circle (center 0 0) (end 1.6 0) (layer "F.CrtYd") (width 0.1) (fill none) (tstamp 31e2c689-c71b-4fec-a456-2b613359a558))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 63497eac-f8f7-4269-910c-1213268642c0))
   )
 
   (footprint "MountingHole:MountingHole_3.2mm_M3_User" (layer "F.Cu")
@@ -737,21 +738,22 @@
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
     (attr exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "M1" (at 0 -4.2) (layer "F.SilkS")
+    (fp_text reference "M1" (at 0 -4.2) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp c24c944a-8b04-453b-9f7d-d4951535a95c)
+      (tstamp a6f0a38f-a73c-4ec5-bdeb-8c377de97942)
     )
-    (fp_text value "M3_hole" (at 0 4.2) (layer "F.Fab")
+    (fp_text value "M3_hole" (at 0 4.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp a0abb0d4-c936-4c4d-bd3c-44116f49b41f)
+      (tstamp 52c46b04-44ab-4a6e-885c-bb245bf3febf)
     )
-    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab")
+    (fp_text user "${REFERENCE}" (at 0 0) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 8907a143-83a9-4b08-83ba-7e6621a7cdfb)
+      (tstamp 87d50820-008c-4e11-87f6-6e1ef43bb04f)
     )
-    (fp_circle (center 0 0) (end 2.54 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp c53de61f-fdd1-4907-a3ad-5e15407caf03))
-    (fp_circle (center 0 0) (end 2.54 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 4154fa6f-3a69-47d2-a31a-8935cf347f8d))
-    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 41ee4f0d-a75b-4064-a078-265a20ea92d0))
+    (fp_circle (center 0 0) (end 2.05 0) (layer "F.SilkS") (width 0.75) (fill none) (tstamp 8faf024c-576b-4fef-961e-c5537a4648e5))
+    (fp_circle (center 0 0) (end 1.6 0) (layer "Cmts.User") (width 0.1) (fill none) (tstamp ad609842-a4d6-45a8-87c2-8981223eab96))
+    (fp_circle (center 0 0) (end 1.6 0) (layer "F.CrtYd") (width 0.1) (fill none) (tstamp d91b46a7-219e-471f-b059-40f17e11cad2))
+    (pad "" np_thru_hole circle (at 0 0) (size 3.2 3.2) (drill 3.2) (layers *.Cu *.Mask) (tstamp 62bf6397-048d-4e29-8c52-3b20af5703e2))
   )
 
   (footprint "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical" (layer "F.Cu")
@@ -823,7 +825,7 @@
 
   (footprint "Logos:voron_logo_hex" (layer "F.Cu")
     (tedit 0) (tstamp f1d4704e-897d-452f-aec9-1b75dc4fff3f)
-    (at 154.24 97.81)
+    (at 153 98)
     (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
@@ -928,8 +930,6 @@
     )
   )
 
-  (gr_circle (center 148 99.23) (end 151 99.23) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 3c19eee8-8ef9-4c6e-b5af-9f26817e96ee))
-  (gr_circle (center 136 112) (end 139 112) (layer "F.SilkS") (width 0.1) (fill solid) (tstamp 88c53001-83db-453f-916c-506f3ad8d7eb))
   (gr_line (start 125.5 90.5) (end 125.5 115.5) (layer "Edge.Cuts") (width 0.1) (tstamp 08ba42b0-afe4-4b4f-8958-a4f3f194bf84))
   (gr_line (start 170.5 119) (end 170.5 90.5) (layer "Edge.Cuts") (width 0.1) (tstamp 2386f1a3-b324-4c4b-b643-3b404bde3b20))
   (gr_arc (start 141 111.5) (mid 141.43934 110.43934) (end 142.5 110) (layer "Edge.Cuts") (width 0.1) (tstamp 27dbf4a6-45a7-4fa6-af52-2db7d165f6f2))
@@ -10030,8 +10030,6 @@
   )
   (group "" (id 138ee650-507a-4b6c-aa52-9a524f6554fc)
     (members
-      3c19eee8-8ef9-4c6e-b5af-9f26817e96ee
-      88c53001-83db-453f-916c-506f3ad8d7eb
       d2e33ac6-8ba1-45b4-a4e6-6e1f013e565c
       d51818f7-3221-478a-8396-f76ef6cf744f
     )
