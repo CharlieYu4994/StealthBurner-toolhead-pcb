@@ -119,17 +119,14 @@
   (footprint "Logos:LassiCat" (layer "F.Cu")
     (tedit 0) (tstamp 08b3044d-9db7-4f16-8523-ad4c0f7588ea)
     (at 134 106.5)
-    (fp_text reference "REF**" (at -4.1 -9.66 unlocked) (layer "F.SilkS") hide
+    (attr board_only exclude_from_pos_files exclude_from_bom)
+    (fp_text reference "L1" (at -4.1 -9.66 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 2ff2d887-187f-43cb-85a6-ca837e030753)
     )
     (fp_text value "LassiCat" (at -0.25 4.69 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 7b2b691c-a301-485b-aac8-1de98393a6d5)
-    )
-    (fp_text user "${REFERENCE}" (at 0.53 7.14 unlocked) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp e1043007-9b01-4b97-b744-2ccffb29decf)
     )
     (fp_poly (pts
         (xy -0.268982 -0.765615)
@@ -1581,7 +1578,7 @@
     (tedit 0) (tstamp f1d4704e-897d-452f-aec9-1b75dc4fff3f)
     (at 153.44 99.23)
     (attr board_only exclude_from_pos_files exclude_from_bom)
-    (fp_text reference "G***" (at 0 0) (layer "F.SilkS") hide
+    (fp_text reference "L2" (at 0 0) (layer "F.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
       (tstamp 8bcb28b2-68c9-4090-b30f-77f33fa6f3fe)
     )

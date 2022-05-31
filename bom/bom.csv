@@ -1,0 +1,12 @@
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"J5";"JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical";1;"FS";;;
+2;"TH1";"R_0805_2012Metric";1;"CBT";;;
+3;"J8";"JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical";1;"LED";;;
+4;"J6";"JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical";1;"HEF";;;
+5;"J9";"Molex_Micro-Fit_3.0_43045-1800_2x09_P3.00mm_Horizontal";1;"MCU";;;
+6;"J2";"JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical";1;"E-Step";;;
+7;"J3";"Molex_Micro-Fit_3.0_43045-0200_2x01_P3.00mm_Horizontal";1;"HE";;;
+8;"D1";"D_DO-35_SOD27_P2.54mm_Vertical_AnodeUp";1;"BAT85";;;
+9;"J1";"JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical";1;"PROBE";;;
+10;"J4";"JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical";1;"HET";;;
+11;"J7";"JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical";1;"PCF";;;
