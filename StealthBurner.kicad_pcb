@@ -112,13 +112,14 @@
   (net 14 "/PCF")
   (net 15 "/DATA")
   (net 16 "/CBT")
-  (net 17 "/V_FAN")
+  (net 17 "Vdrive")
   (net 18 "/P_SIG")
   (net 19 "/FS")
 
   (footprint "Logos_User:LassiCat_Logo" (layer "F.Cu")
     (tedit 0) (tstamp 08b3044d-9db7-4f16-8523-ad4c0f7588ea)
     (at 148.08 104.693435)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "L1" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 31b73e88-d73f-4a64-b0eb-3fc48a23f951)
@@ -1089,7 +1090,7 @@
     (fp_line (start -1.95 -1.7) (end -1.95 2.8) (layer "F.Fab") (width 0.1) (tstamp e4f43349-3f67-4924-9783-e918db4d09eb))
     (fp_line (start -1.11 -2.11) (end -2.36 -2.11) (layer "F.Fab") (width 0.1) (tstamp fbbacad4-e3d6-4bc2-a42d-a5503b96ba41))
     (pad "1" thru_hole roundrect (at 0 0 270) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask) (roundrect_rratio 0.2083333333)
-      (net 17 "/V_FAN") (pinfunction "Pin_1") (pintype "passive") (tstamp 4bccbd24-4903-4ab1-b103-73c4cb552b83))
+      (net 17 "Vdrive") (pinfunction "Pin_1") (pintype "passive") (tstamp 4bccbd24-4903-4ab1-b103-73c4cb552b83))
     (pad "2" thru_hole oval (at 2 0 270) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask)
       (net 13 "/HEF") (pinfunction "Pin_2") (pintype "passive") (tstamp 90dc18a7-d136-49c5-aca7-9f578dd2dde7))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl"
@@ -1145,7 +1146,7 @@
     (pad "2" thru_hole circle (at 3 0 270) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask)
       (net 5 "+24V") (pinfunction "Pin_2") (pintype "passive") (tstamp 61636ab4-9fc6-472e-99d2-3704d83dc8d2))
     (pad "3" thru_hole circle (at 6 0 270) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask)
-      (net 17 "/V_FAN") (pinfunction "Pin_3") (pintype "passive") (tstamp 4cb71db4-4f8a-40fa-b667-141b413d58a7))
+      (net 17 "Vdrive") (pinfunction "Pin_3") (pintype "passive") (tstamp 4cb71db4-4f8a-40fa-b667-141b413d58a7))
     (pad "4" thru_hole circle (at 9 0 270) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask)
       (net 18 "/P_SIG") (pinfunction "Pin_4") (pintype "passive") (tstamp 5087b3f6-916a-400c-99f5-e4bf916e2288))
     (pad "5" thru_hole circle (at 12 0 270) (size 1.5 1.5) (drill 1.02) (layers *.Cu *.Mask)
@@ -1419,7 +1420,7 @@
     (at 136 112)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "M2" (at 0 -4.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 41e5b804-f27d-482c-9ce8-cc3ba92f76cf)
@@ -1439,7 +1440,7 @@
     (at 148 99.23)
     (descr "Mounting Hole 3.2mm, no annular, M3")
     (tags "mounting hole 3.2mm no annular m3")
-    (attr exclude_from_pos_files exclude_from_bom)
+    (attr board_only exclude_from_pos_files exclude_from_bom)
     (fp_text reference "M1" (at 0 -4.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e56cfc3c-7906-4f1a-bf37-fb1b29d28aee)
@@ -1610,7 +1611,7 @@
     (fp_line (start -1.95 2.8) (end 3.95 2.8) (layer "F.Fab") (width 0.1) (tstamp bd2b0b89-077e-4ec5-9357-f07b3b64636e))
     (fp_line (start 3.95 2.8) (end 3.95 -1.7) (layer "F.Fab") (width 0.1) (tstamp f09febc9-1548-454c-a1fc-b693e07f017b))
     (pad "1" thru_hole roundrect (at 0 0 270) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask) (roundrect_rratio 0.2083333333)
-      (net 17 "/V_FAN") (pinfunction "Pin_1") (pintype "passive") (tstamp 5e8512eb-5683-41a3-bef8-e84ad3aff291))
+      (net 17 "Vdrive") (pinfunction "Pin_1") (pintype "passive") (tstamp 5e8512eb-5683-41a3-bef8-e84ad3aff291))
     (pad "2" thru_hole oval (at 2 0 270) (size 1.2 1.75) (drill 0.75) (layers *.Cu *.Mask)
       (net 14 "/PCF") (pinfunction "Pin_2") (pintype "passive") (tstamp a699c71a-8ed3-4f9b-b099-6169dfedfd37))
     (model "${KICAD6_3DMODEL_DIR}/Connector_JST.3dshapes/JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical.wrl"
